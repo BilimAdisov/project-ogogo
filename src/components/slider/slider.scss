@@ -1,0 +1,142 @@
+.mySwiper {
+    width: 1090px;
+    height: 461px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    .slid-1 {
+        background-image: url(https://bobbystore.kg/wa-data/public/shop/promos/70/00/70/promo_63615a2e6cb6b725262919.1047x462.jpg?v=1667324462);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        padding-left: 100px;
+        h3 {
+            color: white;
+            font-size: 24px;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        h2 {
+            color: white;
+            font-size: 38px;
+            font-weight: 700;
+        }
+        h4 {
+            color: #ccc;
+            font-size: 16px;
+            font-weight: 500;
+            margin: 20px 0;
+        }
+
+        
+        
+    }
+    .slid-2 {
+        background-image: url(https://bobbystore.kg/wa-data/public/shop/promos/71/00/71/promo_636162a3bf7bc789974360.1047x462.jpg?v=1667326627);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        padding-left: 100px;
+        h3 {
+            color: white;
+            font-size: 24px;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        h2 {
+            color: white;
+            font-size: 38px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+    }
+    .slid-3 {
+        background-image: url(https://bobbystore.kg/wa-data/public/shop/promos/72/00/72/promo_6361647ce2d90860058517.1047x462.jpeg?v=1667327100);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        padding-left: 100px;
+        h3 {
+            color: white;
+            font-size: 24px;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        h2 {
+            color: white;
+            font-size: 38px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+    }
+    .slid-4 {
+        background-image: url(https://bobbystore.kg/wa-data/public/shop/promos/73/00/73/promo_6364fd011df07598196292.1047x462.png?v=1667562753);
+        height: 440px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+}
+.button {
+    position: relative;
+    width: 180px;
+    height: 46px;
+    overflow: hidden;
+    .btn {
+        width: 100%;
+        height: 100%;
+        padding: 0 10px;
+        padding-right: 0px;
+        border-radius: 8px;
+        color: white;
+        background-color: #4E7DF1;
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        transition: 0.2s;
+    }
+    .strelka {
+        width: 20px;
+        height: 46px;
+        position: absolute;
+        bottom: 0%;
+        right: -11%;
+        background-color: #8096cd;
+        border-radius: 0 8px 8px 0;
+        box-sizing: border-box;
+        transition: 0.2s;
+        .right {
+            padding-top: 16px;
+            color: white;
+        }
+    }
+}
+.button:hover .strelka {
+    right: 0;
+}
+.button:hover .btn {
+    background-color: #648cf3;
+    padding-right: 10px;
+}
+.button:hover {
+    border-radius: 8px;
+}
+
