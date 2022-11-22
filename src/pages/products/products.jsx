@@ -37,7 +37,8 @@ useEffect(() => {
 
     {
       state.map(obj => (
-    <div className="items">
+    <div className="posts" data-aos="zoom-out-down">
+      <div className="items">
         <div className="item-on">
           <img src={obj.url} alt="img" />
           <div className="like">
@@ -55,7 +56,7 @@ useEffect(() => {
               <AiOutlineStar className='star'/>
               <AiOutlineStar className='star'/>
             </div>
-            <a href="/">{obj.name}</a>
+            <a href="/products">{obj.name}</a>
             <p>
               <AiFillCheckCircle className='check'/>
               В наличии
@@ -78,6 +79,7 @@ useEffect(() => {
               <button className='btn-fast'>БЫСТРЫЙ ЗАКАЗ</button>
             </div>
       </div>
+    </div>
       ))
     }
     </div>

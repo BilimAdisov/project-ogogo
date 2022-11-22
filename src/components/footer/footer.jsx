@@ -21,52 +21,53 @@ export const Footer = () => {
                                 10000 счастливых клиентов
                             </p>
                             <div className="link">
-                                <a href="/" className='link-after'>Политика персональных данных</a>
-                                <a href="/">Карта сайта</a>
+                                <a href="/products" className='link-after'>Политика персональных данных</a>
+                                <a href="/products">Карта сайта</a>
                             </div>
 
                         </div>
                         <div className="second">
                             <ul>
                                 <h3>Компания</h3>
-                                <li><a href="/">Новинки</a></li>
-                                <li><a href="/">Аксессуары Apple</a></li>
-                                <li><a href="/">Аксессуары для Фото/Видео</a></li>
-                                <li><a href="/">Смартфоны</a></li>
-                                <li><a href="/">Авто аксессуары</a></li>
-                                <li><a href="/">Мобильные аксессуары</a></li>
-                                <li><a href="/">Аудио технологии</a></li>
-                                <li><a href="/">Встраиваемая техника</a></li>
-                                <li><a href="/">Бытовая техныка (Электроника)</a></li>
-                                <li><a href="/">Товары для дома</a></li>
-                                <li><a href="/">Личные Вещи</a></li>
-                                <li><a href="/">Транспорт</a></li>
-                                <li><a href="/">Компьютеры и Ноутбуки</a></li>
-                                <li><a href="/">Разное</a></li>
+                                <li><a href="/products">Новинки</a></li>
+                                <li><a href="/products">Аксессуары Apple</a></li>
+                                <li><a href="/products">Аксессуары для Фото/Видео</a></li>
+                                <li><a href="/products">Смартфоны</a></li>
+                                <li><a href="/products">Личные Вещи</a></li>
+                                <li><a href="/products">Авто аксессуары</a></li>
+                                <li><a href="/products">Мобильные аксессуары</a></li>
+                                <li><a href="/products">Аудио технологии</a></li>
+                                <li><a href="/products">Встраиваемая техника</a></li>
+                                <li><a href="/products">Бытовая техныка (Электроника)</a></li>
+                                <li><a href="/products">Товары для дома</a></li>
+                                <li><a href="/products">Личные Вещи</a></li>
+                                <li><a href="/products">Транспорт</a></li>
+                                <li><a href="/products">Компьютеры и Ноутбуки</a></li>
+                                <li><a href="/products">Разное</a></li>
                             </ul>
                         </div>
                         <div className="third">
                             <ul>
                                 <h3>ДЛЯ ПОКУПАТЕЛЕЙ</h3>
-                                <li><a href="/">Подарочные сертификаты</a></li>
-                                <li><a href="/">Для организаций</a></li>
-                                <li><a href="/">Доставка</a></li>
-                                <li><a href="/">Bobby-Партнеры</a></li>
-                                <li><a href="/">Bobby-Ответы</a></li>
-                                <li><a href="/">Контакты</a></li>
-                                <li><a href="/">Скидки и бонусы</a></li>
-                                <li><a href="/">Cashback (Бонусы)</a></li>
-                                <li><a href="/">Рассрочка и кредиты</a></li>
-                                <li><a href="/">О нас</a></li>
-                                <li><a href="/">Политика конфеденциальности</a></li>
-                                <li><a href="/">Гарантийная инфоррмация</a></li>
+                                <li><a href="/products">Подарочные сертификаты</a></li>
+                                <li><a href="/products">Для организаций</a></li>
+                                <li><a href="/products">Доставка</a></li>
+                                <li><a href="/products">Bobby-Партнеры</a></li>
+                                <li><a href="/products">Bobby-Ответы</a></li>
+                                <li><a href="/products">Контакты</a></li>
+                                <li><a href="/products">Скидки и бонусы</a></li>
+                                <li><a href="/products">Cashback (Бонусы)</a></li>
+                                <li><a href="/products">Рассрочка и кредиты</a></li>
+                                <li><a href="/products">О нас</a></li>
+                                <li><a href="/products">Политика конфеденциальности</a></li>
+                                <li><a href="/products">Гарантийная инфоррмация</a></li>
                             </ul>
                             <ul>
                                 <h3>Личный кабинет</h3>
-                                <li><a href="/">Мой профиль</a></li>
-                                <li><a href="/">Мои заказы</a></li>
-                                <li><a href="/">Партнерская программа</a></li>
-                                <li><a href="/">Мои подписки</a></li>
+                                <li><a href="/products">Мой профиль</a></li>
+                                <li><a href="/products">Мои заказы</a></li>
+                                <li><a href="/products">Партнерская программа</a></li>
+                                <li><a href="/products">Мои подписки</a></li>
                             </ul>
                         </div>
                         <div className="fourth">

@@ -80,7 +80,7 @@ export const Header = () => {
                 <div className="under-header-container">
                     <ul>
                         <li>
-                            <img src="https://bobbystore.kg/wa-data/public/site/themes/insales/img/icon.svg?v3.5.0.10" alt="img" />
+                            <a href="/"><img src="https://bobbystore.kg/wa-data/public/site/themes/insales/img/icon.svg?v3.5.0.10" alt="img" /></a>
                         </li>
                         <li>
                             <div className='catalog'>Каталог товаров</div>

@@ -25,178 +25,180 @@ a,button {
         display: flex;
         flex-wrap: wrap;
         gap: 200px;
-        .items:hover {
-            transform: scale(1.1);
-            box-shadow: 3px 3px 7px 2px #d4d4d4 !important;
-        }
-        .items {
-            width: 218px;
-            height: 547px;
-            padding: 15px;
-            border: 1px;
-            margin: 30px 0 0 30px;
-            transition: 1s;
-            .item-on {
-                position: relative;
-                img {
-                    width: 218px;
-                    height: 218px;
-                }
-                .like {
-                    border-radius: 999px;
-                    background-color: white;
-                    width: 30px;
-                    height: 30px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    position: absolute;
-                    top: 10px;
-                    right: 10px;
-                    border: 1px solid #ccc;
-                    transition: 0.3s;
-                }
-                .compare {
-                    border-radius: 999px;
-                    background-color: white;
-                    width: 30px;
-                    height: 30px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    position: absolute;
-                    top: 45px;
-                    right: 10px;
-                    border: 1px solid #ccc;
-                    transition: 0.3s;
-                }
-                .like:hover {
-                    box-shadow: 0 0 0 2px #4e7df1;
-                }
-                .compare:hover {
-                    box-shadow: 0 0 0 2px #4e7df1;
-                }
+        .posts {
+            .items:hover {
+                transform: scale(1.1);
+                box-shadow: 3px 3px 7px 2px #d4d4d4 !important;
             }
-        }
-        .middle {
-            .rate {
-                margin: 15px 0;
-            }
-            a {
-                color: black;
-                text-decoration: none;
-                margin: 15px 0 20px 0;
-                transition: 0.3s;
-            }
-            a:hover {
-                color: #4e7df1;
-            }
-            p {
-                margin-top: 30px;
-                margin-bottom: 20px;
-                color: #43c16d;
-                .check {
-                    color: #43c16d;
-                }
-            }
-            .price {
-                display: flex;
-                align-items: flex-end;
-                gap: 10px;
-                .before-cost {
-                    color: gray;
-                    text-decoration: line-through;
-                }
-            }
-        }
-        .item-under {
-            padding-top: 20px;
-            .btn-fast {
+            .items {
                 width: 218px;
-                height: 43px;
-                padding: 3px 20px;
-                margin-top: 15px;
-                background-color: #eff4ff;
-                color: #5d83fc;
-                border-radius: 8px;
-                transition: 0.3s;
-            }
-            .btn-fast:hover {
-                background-color: rgba(124,115,250,1);
-                color: white;
-            }
-            .add-cart {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                padding-bottom: 15px;
-                border-bottom:1px solid #ccc;
-                p:hover {
-                    box-shadow: 0 0 0 2px #4e7df1;
-                }
-                p {
-                    height: 36px;
-                    width: 36px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    background-color: white;
-                    border: 1px solid #ccc;
-                    border-radius: 8px;
-                    transition: 0.3s;
-                    .view {
-                        color: gray;
-                    }
-                }
-                .item-button {
-                    background-color: #4E7DF1;
+                height: 547px;
+                padding: 15px;
+                border: 1px;
+                margin: 30px 0 0 30px;
+                transition: 1s;
+                .item-on {
                     position: relative;
-                    width: 167px;
-                    height: 36px;
-                    overflow: hidden;
-                    border-radius: 8px;
-                    margin-right: 10px  ;
-                    .btn {
-                        width: 100%;
-                        height: 100%;
-                        padding: 0 10px;
-                        padding-right: 0px;
-                        border-radius: 8px;
-                        color: white;
-                        background-color: #4E7DF1;
-                        font-size: 14px;
-                        font-weight: 500;
+                    img {
+                        width: 218px;
+                        height: 218px;
+                    }
+                    .like {
+                        border-radius: 999px;
+                        background-color: white;
+                        width: 30px;
+                        height: 30px;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        box-sizing: border-box;
-                        transition: 0.2s;
-                    }
-                    .strelka {
-                        width: 20px;
-                        height: 36px;
                         position: absolute;
-                        bottom: 0%;
-                        right: -11%;
-                        background-color: #8096cd;
-                        border-radius: 0 8px 8px 0;
-                        box-sizing: border-box;
-                        transition: 0.2s;
-                        .right {
-                            padding-top: 10px;
-                            color: white;
+                        top: 10px;
+                        right: 10px;
+                        border: 1px solid #ccc;
+                        transition: 0.3s;
+                    }
+                    .compare {
+                        border-radius: 999px;
+                        background-color: white;
+                        width: 30px;
+                        height: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: 45px;
+                        right: 10px;
+                        border: 1px solid #ccc;
+                        transition: 0.3s;
+                    }
+                    .like:hover {
+                        box-shadow: 0 0 0 2px #4e7df1;
+                    }
+                    .compare:hover {
+                        box-shadow: 0 0 0 2px #4e7df1;
+                    }
+                }
+            }
+            .middle {
+                .rate {
+                    margin: 15px 0;
+                }
+                a {
+                    color: black;
+                    text-decoration: none;
+                    margin: 15px 0 20px 0;
+                    transition: 0.3s;
+                }
+                a:hover {
+                    color: #4e7df1;
+                }
+                p {
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                    color: #43c16d;
+                    .check {
+                        color: #43c16d;
+                    }
+                }
+                .price {
+                    display: flex;
+                    align-items: flex-end;
+                    gap: 10px;
+                    .before-cost {
+                        color: gray;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+            .item-under {
+                padding-top: 20px;
+                .btn-fast {
+                    width: 218px;
+                    height: 43px;
+                    padding: 3px 20px;
+                    margin-top: 15px;
+                    background-color: #eff4ff;
+                    color: #5d83fc;
+                    border-radius: 8px;
+                    transition: 0.3s;
+                }
+                .btn-fast:hover {
+                    background-color: rgba(124,115,250,1);
+                    color: white;
+                }
+                .add-cart {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    padding-bottom: 15px;
+                    border-bottom:1px solid #ccc;
+                    p:hover {
+                        box-shadow: 0 0 0 2px #4e7df1;
+                    }
+                    p {
+                        height: 36px;
+                        width: 36px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: white;
+                        border: 1px solid #ccc;
+                        border-radius: 8px;
+                        transition: 0.3s;
+                        .view {
+                            color: gray;
                         }
                     }
-                }
-                .item-button:hover .strelka {
-                    right: 0;
-                }
-                .item-button:hover .btn {
-                    background-color: #648cf3;
-                    padding-right: 10px;
-                }
-                .item-button:hover {
-                    border-radius: 8px;
+                    .item-button {
+                        background-color: #4E7DF1;
+                        position: relative;
+                        width: 167px;
+                        height: 36px;
+                        overflow: hidden;
+                        border-radius: 8px;
+                        margin-right: 10px  ;
+                        .btn {
+                            width: 100%;
+                            height: 100%;
+                            padding: 0 10px;
+                            padding-right: 0px;
+                            border-radius: 8px;
+                            color: white;
+                            background-color: #4E7DF1;
+                            font-size: 14px;
+                            font-weight: 500;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            box-sizing: border-box;
+                            transition: 0.2s;
+                        }
+                        .strelka {
+                            width: 20px;
+                            height: 36px;
+                            position: absolute;
+                            bottom: 0%;
+                            right: -11%;
+                            background-color: #8096cd;
+                            border-radius: 0 8px 8px 0;
+                            box-sizing: border-box;
+                            transition: 0.2s;
+                            .right {
+                                padding-top: 10px;
+                                color: white;
+                            }
+                        }
+                    }
+                    .item-button:hover .strelka {
+                        right: 0;
+                    }
+                    .item-button:hover .btn {
+                        background-color: #648cf3;
+                        padding-right: 10px;
+                    }
+                    .item-button:hover {
+                        border-radius: 8px;
+                    }
                 }
             }
         }
